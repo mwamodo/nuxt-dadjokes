@@ -1,6 +1,7 @@
 <template>
   <div>
-    <h2>Welcome to the best dad jokes on the web</h2>
+    <h1>About Dad Jokes</h1>
+    <p>This is an app that displays jokes that are not funny.</p>
   </div>
 </template>
 
@@ -8,7 +9,7 @@
 export default {
   head() {
     return {
-      title: "Welcome To Dad Jokes",
+      title: "About The App",
       meta: [
         {
           hid: "description",
@@ -22,9 +23,4 @@ export default {
 </script>
 
 <style>
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-  @apply min-h-screen flex justify-center items-center text-center mx-auto;
-}
-*/
 </style>
